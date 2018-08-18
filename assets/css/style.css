@@ -220,6 +220,7 @@ input[type="submit"] {
 @media only screen and (max-width: 640px) {
   #masthead {
     position: static;
+    margin: 0px;
   }
 }
 @media only screen and (max-width: 768px) {
