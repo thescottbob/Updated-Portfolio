@@ -222,7 +222,7 @@ input[type="submit"] {
     position: static;
   }
 }
-@media only screen and (min-width: 641px && max-width: 768px) {
+@media only screen and (max-width: 768px) {
 }
-@media only screen and (min-width: 769px && max-width: 980px) {
+@media only screen and (max-width: 980px) {
 }
