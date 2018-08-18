@@ -217,12 +217,12 @@ input[type="submit"] {
   border: 0 none;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 0px && max-width: 640px) {
   #masthead {
     position: static;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 641px && max-width: 768px) {
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (min-width: 769px && max-width: 980px) {
 }
