@@ -217,9 +217,16 @@ input[type="submit"] {
   border: 0 none;
 }
 
-@media only screen and (min-width: 0px && max-width: 640px) {
+@media only screen and (max-width: 640px) {
   #masthead {
     position: static;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
   }
 }
 @media only screen and (min-width: 641px && max-width: 768px) {
