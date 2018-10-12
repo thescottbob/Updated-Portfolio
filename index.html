@@ -1,50 +1,69 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+
+<html>
 
 <head>
-    <title>Portfolio | Scott McMains</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://pngimg.com/uploads/sun/sun_PNG13426.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="assets/logic.js"></script>
 </head>
 
-<body>
+<body background="https://www.universetoday.com/wp-content/uploads/2010/12/cosmic_web_3smaller.jpg">
 
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Scott McMains</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+    <!-- Home Page -->
+    <div class="page" id="homePage">
+        <button class="planet" id="portfolio">Portfolio</button>
+        <button class="planet" id="aboutMe">About Me</button>
+        <button class="planet" id="contactMe">Contact Me</button>
+        <button class="planet" id="github"><a id="githubLink" href="https://github.com/thescottbob">Github</a></button>
+        <button class="planet" id="linkedIn"><a id="linkedinLink" href="https://www.linkedin.com/in/scottmcmains/">LinkedIn</a></button>
+
+        <div class="centerText">
+
+            <h1 id="connect">Connect.</h1>
+
+            <h1 id="universe">It's the way of the universe.</h1>
+
         </div>
-    </header>
 
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>About Me</h1>
-
-            <img src="assets/images/LyftProfilePic.JPG" alt="ScottsProfilePic" height="250" width="250" id="profilePic">
-
-            <br>
-            <p>
-            I am currently a student at the University of Washington Coding Boot Camp, where I am developing my programming skills, portfolio,
-            and proficiency with the prevalent languages of the web (HTML, CSS/Bootstrap, & JavaScript/jQuery thus far). <br> <br>
-
-            Upon graduation from the Boot Camp in February 2019, I aim to be prepared for success in a career as a Web Developer, Software 
-            Developer, or in another role in which I can utilize my technical skills and creative capacity to help build a better world.
-            </p>
-
-        </section>
+        <!-- All Stars -->
+        <hr width=22.1% id="line1" class="star">
+        <hr width=27.5% id="line2" class="star">
+        <hr width=31.5% id="line3" class="star">
+        <hr width=26.8% id="line4" class="star">
+        <hr width=22% id="line5" class="star">
 
     </div>
 
-    <footer>
-        <div class="container">
-            Copyright &copy;
-        </div>
-    </footer>
+    <!-- Portfolio Page -->
+    <div class="page" id="portfolioPage">
+    </div>
+
+    <!-- GitHub Page -->
+    <div class="page" id="githubPage"> 
+        <p></p> 
+    </div>
+
+    <!-- LinkedIn Page -->
+    <div class="page" id="linkedinPage">  
+    </div>
+
+    <!-- About Me Page -->
+    <div class="page" id="aboutMePage">   
+    </div>
+
+    <!-- Contact Me Page -->
+    <div class="page" id="contactMePage"> 
+    </div>
+
 </body>
 
 </html>
