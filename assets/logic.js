@@ -2,8 +2,6 @@ window.onload = function() {
     $("#portfolioPage").hide();
     $("#aboutMePage").hide();
     $("#contactMePage").hide();
-    $("#githubPage").hide();
-    $("#linkedinPage").hide();
   };
 
 $(document).ready(function(){
@@ -29,7 +27,7 @@ $(document).ready(function(){
     });
 
     $("#linkedIn").click(function(){
-        $("#linkedinPage").attr("target", "_blank")
+        $("#linkedinLink").attr("target", "_blank");
     });
 
 });
