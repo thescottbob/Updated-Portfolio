@@ -227,3 +227,9 @@ input[type="submit"] {
 }
 @media only screen and (max-width: 980px) {
 }
+
+#profilePic {
+  float: left;
+  padding: 20px;
+  transform: rotate(90deg);
+}
