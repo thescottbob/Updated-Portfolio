@@ -32,8 +32,9 @@ $(document).ready(function(){
         window.open("https://www.linkedin.com/in/scottmcmains/");
     });
 
-    $(".homeButton").click(function(){
-        location.reload();
+    $("#aboutMeHomeButton").click(function(){
+        $("#aboutMePage").fadeOut("slow");
+        $("#homePage").fadeIn("slow");
     })
 
 });
