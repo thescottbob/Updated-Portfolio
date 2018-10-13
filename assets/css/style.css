@@ -6,7 +6,7 @@
   left: 51%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  text-shadow: 4px 4px black;
+  text-shadow: 3px 3px black;
   z-index: 1;
  }
 
@@ -34,26 +34,31 @@
   font-size: 15px;
   left: 47%;
   top: 20%;
+  z-index: 3;
 }
 
 #aboutMe {;
   left: 38%;
   top: 80%;
+  z-index: 3;
 }
 
 #contactMe {
   left: 57%;
   top: 80%;
+  z-index: 3;
 }
 
 #github {
   left: 27%;
   top: 47%;
+  z-index: 3;
 }
 
 #linkedIn {
   left: 66%;
   top: 47%;
+  z-index: 3;
 }
 
 /* Styling for the stars */
@@ -103,4 +108,19 @@
 a, u {
   text-decoration: none;
   color: white;
+}
+
+/* Styling for the internal pages */
+#portfolioPage {
+  
+}
+
+#aboutMePage {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+#contactMePage {
+  
 }
