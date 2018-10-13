@@ -2,11 +2,11 @@
   color: white;
   position: absolute;
   text-align: center;
-  top: 48%;
+  top: 56%;
   left: 51%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  text-shadow: 3px 3px black;
+  text-shadow: 4px 4px black;
   z-index: 1;
  }
 
