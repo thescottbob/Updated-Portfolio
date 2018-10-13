@@ -25,40 +25,48 @@
   width: 100px;
   position: absolute;
   font-size: 15px;
-  background-color: black;
-  color: white;
+  color: black;
+  font-weight: bold;
+  border-color: black;
+  border-width: 4px;
+  z-index: 3;
+  background-repeat: no-repeat;
 }
 
 /* Styling for individual buttons */
 #portfolio {
-  font-size: 15px;
   left: 47%;
-  top: 20%;
-  z-index: 3;
+  top: 21%;
+  background-image: url("images/portfolioIcon.png");
+  background-size: 100%;
 }
 
 #aboutMe {;
   left: 38%;
-  top: 80%;
-  z-index: 3;
+  top: 81%;
+  background-image: url("images/aboutMeIcon.png");
+  background-size: 90%;
 }
 
 #contactMe {
   left: 57%;
-  top: 80%;
-  z-index: 3;
+  top: 81%;
+  background-image: url("images/pencilIcon.png");
+  background-size: 110%;
 }
 
 #github {
-  left: 27%;
+  left: 27.5%;
   top: 47%;
-  z-index: 3;
+  background-image: url("images/githubIcon.jpg");
+  background-size: 100%;
 }
 
 #linkedIn {
   left: 66%;
   top: 47%;
-  z-index: 3;
+  background-image: url("images/linkedinIcon.png");
+  background-size: 100%;
 }
 
 /* Styling for the stars */
@@ -107,7 +115,7 @@
 /* Remove the underlining and color change from hyperlinks */
 a, u {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 /* Styling for the internal pages */
@@ -117,8 +125,9 @@ a, u {
 
 #aboutMePage {
   display: flex;
-  justify-content: center;
-  margin-top: auto;
+  text-align: center;
+  align-items: center;
+  width: 50%;
 }
 
 #contactMePage {
