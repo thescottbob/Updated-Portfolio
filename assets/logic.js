@@ -24,10 +24,12 @@ $(document).ready(function(){
 
     $("#github").click(function(){
         $("#githubLink").attr("target", "_blank");
+        window.open("https://github.com/thescottbob");
     });
 
     $("#linkedIn").click(function(){
         $("#linkedinLink").attr("target", "_blank");
+        window.open("https://www.linkedin.com/in/scottmcmains/");
     });
 
 });

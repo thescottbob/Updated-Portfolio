@@ -98,3 +98,9 @@
   font-size: 30px;
   text-shadow: 2px 2px black;
 }
+
+/* Remove the underlining and color change from hyperlinks */
+a, u {
+  text-decoration: none;
+  color: white;
+}
