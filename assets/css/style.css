@@ -127,14 +127,20 @@ a, u {
   text-align: center;
   align-items: center;
   width: 50%;
-  font-size: 20px;
+  font-size: 21px;
   margin: auto;
+  background-color: blueviolet;
 }
 
-#aboutMePic {
-  float: right;
+#aboutMeImage {
+  border-width: 4px;
+  border-color: black;
 }
 
 #contactMePage {
   
+}
+
+.container {
+  display: wrap;
 }
