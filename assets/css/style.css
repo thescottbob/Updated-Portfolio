@@ -124,10 +124,15 @@ a, u {
 }
 
 #aboutMePage {
-  display: flex;
   text-align: center;
   align-items: center;
   width: 50%;
+  font-size: 20px;
+  margin: auto;
+}
+
+#aboutMePic {
+  float: right;
 }
 
 #contactMePage {
