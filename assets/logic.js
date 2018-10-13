@@ -32,4 +32,8 @@ $(document).ready(function(){
         window.open("https://www.linkedin.com/in/scottmcmains/");
     });
 
+    $(".homeButton").click(function(){
+        location.reload();
+    })
+
 });

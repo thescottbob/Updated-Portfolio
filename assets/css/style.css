@@ -109,7 +109,7 @@
 .page {
   color: white;
   font-size: 30px;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 }
 
 /* Remove the underlining and color change from hyperlinks */
@@ -127,14 +127,9 @@ a, u {
   text-align: center;
   align-items: center;
   width: 50%;
-  font-size: 21px;
+  font-size: 19px;
   margin: auto;
   background-color: blueviolet;
-}
-
-#aboutMeImage {
-  border-width: 4px;
-  border-color: black;
 }
 
 #contactMePage {
