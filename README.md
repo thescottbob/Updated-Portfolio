@@ -1,4 +1,4 @@
-Scott's Basic Portfolio / That Portfolio Though
+Welcome to Scott's portfolio! From the home page (linked below) you can quickly links to my GitHub, LinkedIn page, bio, or the portfolio itself.
 
-This portfolio contains a website (index.html) about myself and a number of other supporting files.
+https://thescottbob.github.io/Updated-Portfolio/
 
