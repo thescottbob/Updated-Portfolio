@@ -1,3 +1,10 @@
+body {
+  background: url("https://www.universetoday.com/wp-content/uploads/2010/12/cosmic_web_3smaller.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+
 .centerText {
   color: white;
   position: absolute;
@@ -120,7 +127,16 @@ a, u {
 
 /* Styling for the internal pages */
 #portfolioPage {
-  
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+  background-color: black;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #aboutMePage {
@@ -132,6 +148,11 @@ a, u {
   background-color: blueviolet;
 }
 
-#contactMePage {
-  
+img {
+  height: 290px;
+}
+ 
+.d-block {
+  display: inline;
+  object-fit: fill;
 }
