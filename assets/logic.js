@@ -34,7 +34,21 @@ $(document).ready(function(){
 
     $("#aboutMeHomeButton").click(function(){
         $("#aboutMePage").fadeOut("slow");
+        $("#portfolioPage").fadeOut("slow");
         $("#homePage").fadeIn("slow");
+    })
+
+    // When any of the images on the Portfolio page are clicked
+    $("#foodeaze").click(function(){
+        window.open("https://github.com/thescottbob/FoodEaze").attr("target", "_blank");
+    })
+
+    $("#enviral").click(function(){
+        window.open("https://github.com/kyleconyers/Enviral").attr("target", "_blank");
+    })
+
+    $("#bamazon").click(function(){
+        window.open("https://github.com/thescottbob/Bamazon").attr("target", "_blank");
     })
 
 });
