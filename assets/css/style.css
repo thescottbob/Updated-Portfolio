@@ -1,10 +1,12 @@
+/* Background for all pages */
 body {
   background: url("https://www.universetoday.com/wp-content/uploads/2010/12/cosmic_web_3smaller.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   margin: 0px;
 }
 
+/* Header text for center of Home page */
 .centerText {
   color: white;
   position: absolute;
@@ -15,17 +17,9 @@ body {
   transform: translate(-50%, -50%);
   text-shadow: 3px 3px black;
   z-index: 1;
- }
-
-#connect {
-  font-size: 65px;
-   }
-
-#universe {
-  font-size: 23px; 
 }
 
-/* Styling for all the buttons */
+/* Styling for all buttons on Home page */
 .planet {
   border-radius: 50%;
   height: 100px;
@@ -40,7 +34,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* Styling for individual buttons */
+/* Styling for individual buttons on home page */
 #portfolio {
   left: 47%;
   top: 21%;
@@ -48,7 +42,7 @@ body {
   background-size: 100%;
 }
 
-#aboutMe {;
+#aboutMe {
   left: 38%;
   top: 81%;
   background-image: url("images/aboutMeIcon.png");
@@ -76,7 +70,7 @@ body {
   background-size: 100%;
 }
 
-/* Styling for the stars */
+/* Styling for the star (five lines) */
 .star {
   position: absolute;
   border-color: black;
@@ -112,11 +106,12 @@ body {
   left: 35%;
 }
 
-/* Text styling for all the pages (Home, Portfolio, GitHub, etc.) */
+/* Text styling for all the pages that are not external links */
 .page {
   color: white;
   font-size: 20px;
   text-shadow: 1px 1px black;
+  text-align: center;
 }
 
 /* Remove the underlining and color change from hyperlinks */
@@ -127,9 +122,6 @@ a, u {
 
 /* Styling for the internal pages */
 #portfolioPage {
-  text-align: center;
-  padding: 10px;
-  width: 50%;
   height: 50%;
   background-color: black;
   margin: 0;
@@ -139,21 +131,42 @@ a, u {
   transform: translate(-50%, -50%);
 }
 
-#aboutMePage {
-  text-align: center;
+.aboutMePage {
   align-items: center;
-  width: 50%;
-  height: 80%;
+  width: 70%;
+  height: 50%;
   font-size: 19px;
   margin: auto;
+  margin-top: 100px;
+  padding: 5px;
   background-color: blueviolet;
 }
 
 img {
   height: 290px;
 }
- 
+
 .d-block {
   display: inline;
   object-fit: fill;
+}
+
+#profilePic {
+  float: left;
+  padding: 20px;
+}
+
+#aboutMeHomeButton {
+  width: 10%;
+  background-color: white;
+  color: black;
+  padding: 0px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+p {
+  
 }

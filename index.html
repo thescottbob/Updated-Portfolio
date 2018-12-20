@@ -7,15 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Scott's Portfolio</title>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="assets/logic.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/css/images/moonIcon.png" type="image/x-icon">
@@ -34,13 +29,13 @@
 
         <div class="centerText">
 
-            <h1 id="connect">Connect.</h1>
+            <h1 style="font-size: 65px">Connect</h1>
 
-            <h1 id="universe">It's the way of the universe.</h1>
+            <h1 style="font-size: 23px">It's the way of the universe</h1>
 
         </div>
 
-        <!-- All Stars TODO: Make sure the lines are displayed properly in mobile UI -->
+        <!-- All Stars -->
         <hr width=22.1% id="line1" class="star">
         <hr width=27.5% id="line2" class="star">
         <hr width=31.5% id="line3" class="star">
@@ -86,29 +81,23 @@
     </div>
 
     <!-- About Me Page -->
-    <div class="page" id="aboutMePage">
+    <div class="page aboutMePage">
+
+        <h1 id="aboutMeHeader">About Me</h1>
+
+        <div class="clearfix">
+
+        <p><img id="profilePic" src="assets/css/images/fbprofilepic.jpg" alt="Scott's Profile Pic" width=300px height=300px>
         
-        <div>
-            <h1 id="aboutMeHeader">About Me</h1>
+        Hi! My name is Scott McMains, and I am a full stack web developer. I am currently studying at the University of Washington Coding Boot Camp, where I am developing my programming skills, portfolio, and proficiency with the prevalent languages of the web.
+
+        Upon graduating in 2019, I aim to be prepared for success in a career as a Web Developer, Software Developer, or in another role in which I can utilize my technical skills and creative capacity to help build a better world.
+        </p>
 
         </div>
 
-        <div>
-            <p>Hi! My name is Scott McMains, and I am a full stack web developer. I am currently studying at the University of Washington Coding Boot Camp, where I am developing my programming skills, portfolio, and proficiency with the prevalent languages of the web.
+    <button id="homeButton"><strong>Home</strong></button>
 
-            Upon graduating in 2019, I aim to be prepared for success in a career as a Web Developer, Software Developer, or in another role in which I can utilize my technical skills and creative capacity to help build a better world.
-            </p>
-        
-            <img src="assets/css/images/fbprofilepic.jpg" alt="Scott's Profile Pic" width=300px height=300px>
-            
-            <br><br>
-
-            <button id="aboutMeHomeButton"><strong>Home</strong></button>
-
-            <br><br>
-
-        </div>
-         
     </div>
 
     <!-- Contact Me Page -->
