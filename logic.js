@@ -4,7 +4,7 @@ window.onload = function() {
 };
 
 $(document).ready(function() {
-  //On click events if any of the buttons are clicked
+  //On click events if any of the buttons on Home page are clicked
   $("#portfolio").click(function() {
     $("#homePage").fadeOut("slow");
     $("#portfolioPage").fadeIn("slow");
@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   $("#aboutMe").click(function() {
     $("#homePage").fadeOut("slow");
-    $(".aboutMePage").fadeIn("slow");
+    $("#aboutMePage").fadeIn("slow");
   });
 
   $("#contactMe").click(function() {
@@ -30,9 +30,9 @@ $(document).ready(function() {
     window.open("https://www.linkedin.com/in/scottmcmains/");
   });
 
-  $("#aboutMeHomeButton").click(function() {
-    $(".aboutMePage").fadeOut("slow");
-    $("#aboutMeHomeButton").fadeOut("slow");
+// If the 'Home' button is clicked from any page
+  $(".homeButton").click(function() {
+    $(".page").fadeOut("slow");
     $("#homePage").fadeIn("slow");
   });
 

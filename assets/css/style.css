@@ -34,39 +34,39 @@ body {
   background-repeat: no-repeat;
 }
 
-/* Styling for individual buttons on home page */
+/* Styling for individual buttons on Home page */
 #portfolio {
   left: 47%;
   top: 21%;
-  background-image: url("images/portfolioIcon.png");
+  background-image: url("../images/portfolioIcon.png");
   background-size: 100%;
 }
 
 #aboutMe {
   left: 38%;
   top: 81%;
-  background-image: url("images/aboutMeIcon.png");
+  background-image: url("../images/aboutMeIcon.png");
   background-size: 90%;
 }
 
 #contactMe {
   left: 57%;
   top: 81%;
-  background-image: url("images/pencilIcon.png");
+  background-image: url("../images/pencilIcon.png");
   background-size: 110%;
 }
 
 #github {
   left: 27.5%;
   top: 47%;
-  background-image: url("images/githubIcon.jpg");
+  background-image: url("../images/githubIcon.jpg");
   background-size: 100%;
 }
 
 #linkedIn {
   left: 66%;
   top: 47%;
-  background-image: url("images/linkedinIcon.png");
+  background-image: url("../images/linkedinIcon.png");
   background-size: 100%;
 }
 
@@ -110,8 +110,8 @@ body {
 .page {
   color: white;
   font-size: 20px;
+  height: 50%;
   text-shadow: 1px 1px black;
-  text-align: center;
 }
 
 /* Remove the underlining and color change from hyperlinks */
@@ -120,9 +120,8 @@ a, u {
   color: black;
 }
 
-/* Styling for the internal pages */
+/* Styling for the Portfolio page */
 #portfolioPage {
-  height: 50%;
   background-color: black;
   margin: 0;
   position: absolute;
@@ -131,42 +130,46 @@ a, u {
   transform: translate(-50%, -50%);
 }
 
-.aboutMePage {
+/* Styling for the About Me page */
+#aboutMePage {
   align-items: center;
-  width: 70%;
-  height: 50%;
-  font-size: 19px;
+  width: 60%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 5px;
   background-color: blueviolet;
 }
 
-img {
-  height: 290px;
-}
-
-.d-block {
-  display: inline;
-  object-fit: fill;
-}
-
 #profilePic {
   float: left;
-  padding: 20px;
-}
-
-#aboutMeHomeButton {
-  width: 10%;
-  background-color: white;
-  color: black;
-  padding: 0px;
+  padding: 5%;
+  width: 40%;
+  height:40%;
 }
 
 .clearfix {
   overflow: auto;
+  display: inline-block;
 }
 
-p {
-  
+/* Styling for the Contact Me page */
+#contactMePage {
+  text-align: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 5px;
+  background-color: blueviolet;
+}
+
+/* Styling for the Home button, which appears on 3 pages */
+.homeButton {
+  margin-left: 45%;
+  margin-right: 45%;
+  background-color: black;
+  color: white;
+  padding: 0px;
+  width: 10%;
+  font-size: 15px;
 }
