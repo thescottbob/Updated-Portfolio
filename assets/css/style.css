@@ -147,9 +147,13 @@ a, u {
   height:40%;
 }
 
-.clearfix {
+#clearfix {
   overflow: auto;
   display: inline-block;
+}
+
+#caption {
+  float: left;
 }
 
 /* Styling for the Contact Me page */
