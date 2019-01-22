@@ -177,8 +177,8 @@ a, u {
 }
 
 .portfolioImage {
-  width: 50%;
-  height: 25%;
+  width: 400px;
+  height: 200px;
   justify-content: center;
   text-align: center;
   margin: auto;
