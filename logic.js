@@ -1,6 +1,6 @@
 window.onload = function() {
   $(".page").hide();
-  $(".homeButton").hide();
+  $("#homeButton").hide();
   $("#homePage").show();
 };
 
