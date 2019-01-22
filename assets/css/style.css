@@ -175,3 +175,8 @@ a, u {
   width: 10%;
   font-size: 15px;
 }
+
+.portfolioImage {
+  width: 75%;
+  height: 30%;
+}
