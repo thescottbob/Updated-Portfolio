@@ -55,3 +55,6 @@ $(document).ready(function() {
       .attr("target", "_blank");
   });
 });
+
+// Initiate the carousel
+$('.carousel').carousel();
